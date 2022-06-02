@@ -10,9 +10,16 @@ import {
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row
+      style={{
+        justifyContent: "center",
+        color: "white",
+        paddingBottom: "50px",
+      }}
+    >
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        {/* <img src={js} style={{ width: "100px" }} alt="" /> */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
